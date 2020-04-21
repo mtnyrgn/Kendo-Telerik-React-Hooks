@@ -50,7 +50,7 @@ const NavBar = () => {
                     </NavIcon>
                     <NavText>Components</NavText>
                   </NavItem>
-                  <NavItem eventKey="components">
+                  <NavItem eventKey="tutorials">
                     <NavIcon>
                       <i
                         className="fa fa-fw fa-info"
@@ -59,7 +59,7 @@ const NavBar = () => {
                     </NavIcon>
                     <NavText>Tutorials</NavText>
                   </NavItem>
-                  <NavItem eventKey="components">
+                  <NavItem eventKey="settings">
                     <NavIcon>
                       <i
                         className="fa fa-fw fa-cog"
@@ -68,7 +68,7 @@ const NavBar = () => {
                     </NavIcon>
                     <NavText>Settings</NavText>
                   </NavItem>
-                  <NavItem eventKey="components">
+                  <NavItem eventKey="logout">
                     <NavIcon>
                       <i
                         className="fa fa-fw fa-sign-out"
