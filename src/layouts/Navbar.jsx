@@ -30,7 +30,7 @@ const NavBar = () => {
                   }
                 }}
               >
-                <SideNav.Toggle />
+                <SideNav.Toggle style={{float: 'right'}}/>
                 <SideNav.Nav defaultSelected="home">
                   <NavItem eventKey="home">
                     <NavIcon>
@@ -50,7 +50,7 @@ const NavBar = () => {
                     </NavIcon>
                     <NavText>Components</NavText>
                   </NavItem>
-                  <NavItem eventKey="components">
+                  <NavItem eventKey="deneme">
                     <NavIcon>
                       <i
                         className="fa fa-fw fa-info"
@@ -59,7 +59,7 @@ const NavBar = () => {
                     </NavIcon>
                     <NavText>Tutorials</NavText>
                   </NavItem>
-                  <NavItem eventKey="components">
+                  <NavItem eventKey="deneme">
                     <NavIcon>
                       <i
                         className="fa fa-fw fa-cog"
@@ -68,7 +68,7 @@ const NavBar = () => {
                     </NavIcon>
                     <NavText>Settings</NavText>
                   </NavItem>
-                  <NavItem eventKey="components">
+                  <NavItem eventKey="deneme">
                     <NavIcon>
                       <i
                         className="fa fa-fw fa-sign-out"
